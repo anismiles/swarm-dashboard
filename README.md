@@ -19,6 +19,12 @@ over a websocket.
 
 * Heavily inspired by [Docker Swarm Visualiser](https://github.com/dockersamples/docker-swarm-visualizer)
 
+## How to build and push
+```
+docker-compose -f compose.yml build
+docker-compose -f compose.yml push
+```
+
 ## Running
 
 At the moment, the dashboard needs to be deployed on one of the swarm managers.
