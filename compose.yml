@@ -3,7 +3,7 @@ version: "3"
 services:
   dashboard:
     build: .
-    image: localhost:5000/dashboard
+    image: cavo2/swarm-dashboard
     volumes:
     - "/var/run/docker.sock:/var/run/docker.sock"
     ports:
